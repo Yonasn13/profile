@@ -18,8 +18,10 @@ h1 {
 }
 
 img {
-    width: 100px;
-    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .container {
     width: 500px;
@@ -34,17 +36,35 @@ img {
 }
 a {
     text-decoration: none;
+    padding: 0.5em;
     
 }
-li {
-    width: 40px;
-    height: 20px;
-    margin: 0 auto;
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 
 }
+.social {
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0px;
+}
+#coders {
+    color: #3f6fae;
+    /* background-color: rgb(142, 142, 199); */
+    border-radius: 8px;
+    transition: 1s ease;
+}
 #coders:hover {
-    background-color: rgb(166, 204, 183);
-    color: rgb(112, 46, 174);
+    background-color: rgb(92 212 203);
+    padding: 0.3em 1em;
     border-radius: 16px;
+    transition: 1s ease;
 
 }
