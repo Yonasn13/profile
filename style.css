@@ -24,15 +24,15 @@ img {
     object-fit: cover;
 }
 .container {
-    width: 500px;
-    margin: 0 auto;
+    width: auto;
+    margin: 16px 60px;
 }
 .card {
     background-color: white;
-    padding: 30px;
+    padding: 10px 0px 16px 0px;
     border: 1px solid rgb(90, 238, 147);
     border-radius: 10px;
-    margin: 5px;
+    margin: 0px 0px 5px 0px;
 }
 a {
     text-decoration: none;
@@ -67,4 +67,9 @@ ul {
     border-radius: 16px;
     transition: 1s ease;
 
+}
+p {
+        /* display: flex; */
+        align-items: center;
+        align-content: center;
 }
